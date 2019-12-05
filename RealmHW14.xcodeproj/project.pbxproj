@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		BE250E0B237038B600286293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E0A237038B600286293 /* AppDelegate.swift */; };
 		BE250E0D237038B600286293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E0C237038B600286293 /* SceneDelegate.swift */; };
-		BE250E0F237038B600286293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E0E237038B600286293 /* ViewController.swift */; };
 		BE250E12237038B600286293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE250E10237038B600286293 /* Main.storyboard */; };
 		BE250E14237038B700286293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE250E13237038B700286293 /* Assets.xcassets */; };
 		BE250E17237038B700286293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE250E15237038B700286293 /* LaunchScreen.storyboard */; };
+		BE250E1F23703E0100286293 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E1E23703E0100286293 /* ToDoViewController.swift */; };
+		BE250E2123703EC400286293 /* DetailedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E2023703EC400286293 /* DetailedListViewController.swift */; };
+		BE250E2323704FB500286293 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E2223704FB500286293 /* Task.swift */; };
+		BE250E252370518400286293 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E242370518400286293 /* TaskList.swift */; };
+		BE250E272370575400286293 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E262370575400286293 /* StorageManager.swift */; };
+		BE250E292372FAB500286293 /* Extension + UITVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E282372FAB500286293 /* Extension + UITVCell.swift */; };
+		CCD82DE531B2AAD50250D16E /* Pods_RealmHW14.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6529C691BBAAB145F4A489C5 /* Pods_RealmHW14.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6529C691BBAAB145F4A489C5 /* Pods_RealmHW14.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmHW14.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D5F8245B99BA3975FFAEEB /* Pods-RealmHW14.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmHW14.release.xcconfig"; path = "Target Support Files/Pods-RealmHW14/Pods-RealmHW14.release.xcconfig"; sourceTree = "<group>"; };
 		BE250E07237038B600286293 /* RealmHW14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmHW14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE250E0A237038B600286293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE250E0C237038B600286293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE250E0E237038B600286293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE250E11237038B600286293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE250E13237038B700286293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE250E16237038B700286293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE250E18237038B700286293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE250E1E23703E0100286293 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		BE250E2023703EC400286293 /* DetailedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedListViewController.swift; sourceTree = "<group>"; };
+		BE250E2223704FB500286293 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		BE250E242370518400286293 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		BE250E262370575400286293 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		BE250E282372FAB500286293 /* Extension + UITVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UITVCell.swift"; sourceTree = "<group>"; };
+		DF38C729D947DC1521861561 /* Pods-RealmHW14.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmHW14.debug.xcconfig"; path = "Target Support Files/Pods-RealmHW14/Pods-RealmHW14.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD82DE531B2AAD50250D16E /* Pods_RealmHW14.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CAF92255191B5A3053624A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6529C691BBAAB145F4A489C5 /* Pods_RealmHW14.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC1CF74A6A37D12F6D721AF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF38C729D947DC1521861561 /* Pods-RealmHW14.debug.xcconfig */,
+				70D5F8245B99BA3975FFAEEB /* Pods-RealmHW14.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BE250DFE237038B600286293 = {
 			isa = PBXGroup;
 			children = (
 				BE250E09237038B600286293 /* RealmHW14 */,
 				BE250E08237038B600286293 /* Products */,
+				BC1CF74A6A37D12F6D721AF3 /* Pods */,
+				2CAF92255191B5A3053624A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +92,12 @@
 			children = (
 				BE250E0A237038B600286293 /* AppDelegate.swift */,
 				BE250E0C237038B600286293 /* SceneDelegate.swift */,
-				BE250E0E237038B600286293 /* ViewController.swift */,
+				BE250E2223704FB500286293 /* Task.swift */,
+				BE250E2023703EC400286293 /* DetailedListViewController.swift */,
+				BE250E1E23703E0100286293 /* ToDoViewController.swift */,
+				BE250E262370575400286293 /* StorageManager.swift */,
+				BE250E242370518400286293 /* TaskList.swift */,
+				BE250E282372FAB500286293 /* Extension + UITVCell.swift */,
 				BE250E10237038B600286293 /* Main.storyboard */,
 				BE250E13237038B700286293 /* Assets.xcassets */,
 				BE250E15237038B700286293 /* LaunchScreen.storyboard */,
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE250E1B237038B700286293 /* Build configuration list for PBXNativeTarget "RealmHW14" */;
 			buildPhases = (
+				399C8F1E8E1CCDE7A4FC7507 /* [CP] Check Pods Manifest.lock */,
 				BE250E03237038B600286293 /* Sources */,
 				BE250E04237038B600286293 /* Frameworks */,
 				BE250E05237038B600286293 /* Resources */,
+				1B6F5BB4E10D4F5FEEC16B04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +174,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B6F5BB4E10D4F5FEEC16B04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmHW14/Pods-RealmHW14-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmHW14/Pods-RealmHW14-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealmHW14/Pods-RealmHW14-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		399C8F1E8E1CCDE7A4FC7507 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmHW14-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE250E03237038B600286293 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE250E0F237038B600286293 /* ViewController.swift in Sources */,
+				BE250E252370518400286293 /* TaskList.swift in Sources */,
+				BE250E2123703EC400286293 /* DetailedListViewController.swift in Sources */,
 				BE250E0B237038B600286293 /* AppDelegate.swift in Sources */,
+				BE250E272370575400286293 /* StorageManager.swift in Sources */,
+				BE250E2323704FB500286293 /* Task.swift in Sources */,
+				BE250E292372FAB500286293 /* Extension + UITVCell.swift in Sources */,
+				BE250E1F23703E0100286293 /* ToDoViewController.swift in Sources */,
 				BE250E0D237038B600286293 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +370,7 @@
 		};
 		BE250E1C237038B700286293 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF38C729D947DC1521861561 /* Pods-RealmHW14.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +389,7 @@
 		};
 		BE250E1D237038B700286293 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D5F8245B99BA3975FFAEEB /* Pods-RealmHW14.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
