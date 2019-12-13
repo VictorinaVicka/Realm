@@ -14,7 +14,7 @@
 		BE250E17237038B700286293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE250E15237038B700286293 /* LaunchScreen.storyboard */; };
 		BE250E1F23703E0100286293 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E1E23703E0100286293 /* ToDoViewController.swift */; };
 		BE250E2123703EC400286293 /* DetailedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E2023703EC400286293 /* DetailedListViewController.swift */; };
-		BE250E2323704FB500286293 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E2223704FB500286293 /* Task.swift */; };
+		BE250E2323704FB500286293 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E2223704FB500286293 /* Model.swift */; };
 		BE250E252370518400286293 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E242370518400286293 /* TaskList.swift */; };
 		BE250E272370575400286293 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E262370575400286293 /* StorageManager.swift */; };
 		BE250E292372FAB500286293 /* Extension + UITVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE250E282372FAB500286293 /* Extension + UITVCell.swift */; };
@@ -33,7 +33,7 @@
 		BE250E18237038B700286293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE250E1E23703E0100286293 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		BE250E2023703EC400286293 /* DetailedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedListViewController.swift; sourceTree = "<group>"; };
-		BE250E2223704FB500286293 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		BE250E2223704FB500286293 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BE250E242370518400286293 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
 		BE250E262370575400286293 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		BE250E282372FAB500286293 /* Extension + UITVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UITVCell.swift"; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 			children = (
 				BE250E0A237038B600286293 /* AppDelegate.swift */,
 				BE250E0C237038B600286293 /* SceneDelegate.swift */,
-				BE250E2223704FB500286293 /* Task.swift */,
+				BE250E2223704FB500286293 /* Model.swift */,
 				BE250E2023703EC400286293 /* DetailedListViewController.swift */,
 				BE250E1E23703E0100286293 /* ToDoViewController.swift */,
 				BE250E262370575400286293 /* StorageManager.swift */,
@@ -225,7 +225,7 @@
 				BE250E2123703EC400286293 /* DetailedListViewController.swift in Sources */,
 				BE250E0B237038B600286293 /* AppDelegate.swift in Sources */,
 				BE250E272370575400286293 /* StorageManager.swift in Sources */,
-				BE250E2323704FB500286293 /* Task.swift in Sources */,
+				BE250E2323704FB500286293 /* Model.swift in Sources */,
 				BE250E292372FAB500286293 /* Extension + UITVCell.swift in Sources */,
 				BE250E1F23703E0100286293 /* ToDoViewController.swift in Sources */,
 				BE250E0D237038B600286293 /* SceneDelegate.swift in Sources */,
