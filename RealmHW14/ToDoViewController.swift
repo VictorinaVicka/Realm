@@ -19,25 +19,6 @@ class ToDoViewController: UITableViewController {
         taskLists = realm.objects(TaskList.self)
         
         navigationItem.leftBarButtonItem = editButtonItem
-
-//        let shoppingList = TaskList()
-//        shoppingList.name = "Shopping List"
-//
-//        let moviesList = TaskList(value: ["Movies List", Date(), [["Terminator", "At one time", Date(), true], ["Addams family"]]])
-//
-//        let yogurt = Task()
-//        yogurt.name = "yogurt"
-//        yogurt.note = "2 thing"
-//
-//        let bread = Task(value: ["Bread", "", Date(), true])
-//        let avocado = Task(value: ["name": "Avocado", "note": "2Kg."])
-//
-//        shoppingList.tasks.append(yogurt)
-//        shoppingList.tasks.insert(contentsOf: [bread, avocado], at: 1)
-//
-//        DispatchQueue.main.async {
-//            StorageManager.saveTaskList([moviesList, shoppingList])
-//        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -99,19 +80,6 @@ class ToDoViewController: UITableViewController {
         
         return UISwipeActionsConfiguration(actions: [deleteAction, doneAction, editAction])
     }
-    
-    //    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
-//        let currentTaskList = taskLists[indexPath.row]
-//
-//        let deleteAction = UITableViewRowAction(style: .default, title: "Delete") { _, _ in
-//            StorageManager.deleteTaskList(currentTaskList)
-//            tableView.deleteRows(at: [indexPath], with: .automatic)
-//
-//        }
-//
-//        return [deleteAction]
-//    }
-
     
     // MARK: - Navigation
 
